@@ -1,4 +1,6 @@
 # isMongoObjectID
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mrm8488/isMongoObjectID.svg)](https://greenkeeper.io/)
 Super fast function to check if a String is a MongoDB ObjectID based on ES6 Sets.
 
 ## Why?

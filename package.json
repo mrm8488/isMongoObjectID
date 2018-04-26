@@ -1,19 +1,21 @@
 {
   "name": "isMongoObjectID",
   "version": "0.0.1",
-  "description":
-    "Super fast function to check if a String is a MongoDB ObjectID based on ES6 Sets.",
+  "description": "Super fast function to check if a String is a MongoDB ObjectID based on ES6 Sets.",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec",
-    "cover":
-      "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrm8488/isMongoObjectID"
   },
-  "keywords": ["objectid", "mongodb", "mongodbobjectid"],
+  "keywords": [
+    "objectid",
+    "mongodb",
+    "mongodbobjectid"
+  ],
   "author": "Manuel Romero",
   "license": "MIT",
   "bugs": {

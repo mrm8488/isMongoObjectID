@@ -22,7 +22,7 @@ const hexadecimalValues = [
   "f"
 ];
 
-// Set with hexadecimal values (Set is ES new Feature)
+// Set with hexadecimal values (Set is an ES6 new Feature)
 const hexValuesSet = new Set(hexadecimalValues);
 
 /**

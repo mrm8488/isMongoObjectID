@@ -47,9 +47,14 @@ describe("Function isValidObjectID - check if a String has MongoDB's ObjectID fo
       expect(isValidObjectID("507f191e810c19729de860ek")).to.be.false;
       done();
     });
+
+    it("should return false because of String passed to the function contains uppercase chars ", done => {
+      expect(isValidObjectID("507f191e810c19729De860e1")).to.be.false;
+      done();
+    });
   });
 
-  describe("vaiid ObjectID format", () => {
+  describe("valid ObjectID format", () => {
     it("should return false because of no param passed to the function", done => {
       expect(isValidObjectID("507f191e810c19729de860e1")).to.be.true;
       done();
